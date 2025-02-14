@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #333;
+    color: #fff;
+}
+.heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.registration {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.registration h3 {
+    margin-top: 0;
+    color: #333;
+}
+.registration p {
+    margin: 5px 0;
+    color: #555;
+}
+.clear-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.clear-btn:hover {
+    background-color: #c0392b;
+}
+.message {
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 18px;
+    font-weight: bold;
+}

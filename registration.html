@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>REGISTER FOR TOURNAMENT</h1>
+        <p>Fill out the form below to register.</p>
+        <form id="registrationForm">
+          
+          <input type="hidden" name="access_key" value="1ec48d69-070d-444a-a92d-0c38a53506d1" />
+          
+          <div class="input-box">
+            <input type="text" name="Name" placeholder="In-Game Name" required />
+          </div>
+          <div class="input-box">
+            <input type="number" name="UID" placeholder="UID" required />
+          </div>
+          <div class="input-box">
+            <input type="number" name="Phone" placeholder="Phone Number" required />
+          </div>
+          <div class="input-box">
+            <input type="email" name="Email" placeholder="Email" required />
+          </div>
+          
+          
+
+
+
+          <div class="input-box">
+            <input type="text" name="Game" id="game" placeholder="Game" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Map" id="map" placeholder="Map" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Mode" id="mode" placeholder="Mode" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Time" id="time" placeholder="Time" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Date" id="date" placeholder="Date" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Prize" id="prize" placeholder="Prize" readonly />
+          </div>
+          <div class="input-box">
+            <input type="text" name="Entry Fee" id="entry" placeholder="Entry Fee" readonly />
+          </div>
+          
+          <div class="input-box">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+        
+         <div id="responseMessage" style="text-align:center; margin-top: 20px;"></div>
+    </div>
+
+    <script src="registeration.js"></script>
+
+</body>
+</html>
