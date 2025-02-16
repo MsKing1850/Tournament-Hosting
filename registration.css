@@ -1,29 +1,26 @@
-/* Universal box-sizing */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
-/* General body styles */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #333;
-    overflow-x: hidden;  /* Prevent horizontal scroll */
+    overflow-x: hidden; 
 }
 
-/* Wrapper for the registration form */
 .wrapper {
-    width: 95%;               /* Use a high percentage for mobile */
-    max-width: 500px;         /* Maximum width on larger screens */
-    margin: 20px auto;        /* Center horizontally with some vertical spacing */
+    width: 95%;               
+    max-width: 500px;         
+    margin: 20px auto;        
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading and paragraph styling */
 h1 {
     font-size: 22px;
     color: #333;
@@ -36,12 +33,10 @@ p {
     margin-bottom: 20px;
 }
 
-/* Input container */
 .input-box {
     margin-bottom: 15px;
 }
 
-/* Input fields styling */
 .input-box input {
     width: 100%;
     padding: 12px;
@@ -57,13 +52,11 @@ p {
     background-color: #fff;
 }
 
-/* Read-only fields styling */
 input[readonly] {
     background-color: #e6e6e6;
     cursor: not-allowed;
 }
 
-/* Button styling */
 button {
     width: 100%;
     padding: 12px;
@@ -80,7 +73,6 @@ button:hover {
     background-color: #ffaa00;
 }
 
-/* Auto-filled fields (Prize & Entry Fee) styling */
 .input-box input#prize,
 .input-box input#entry {
     font-weight: bold;
@@ -88,7 +80,6 @@ button:hover {
     text-align: center;
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 500px) {
     .wrapper {
         padding: 15px;
