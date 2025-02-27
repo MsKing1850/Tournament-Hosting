@@ -129,7 +129,7 @@ p {
 }
 
 .input-box input, .input-box textarea {
-    width: 100%;
+    width: 95%;
     padding: 12px;
     font-size: 16px;
     border: 1px solid #ccc;
